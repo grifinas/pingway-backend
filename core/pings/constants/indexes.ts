@@ -1,0 +1,1 @@
+export const PING_REMINDERS_TABLE_USER_PING_GSI = "UserId-PingId-GSI";

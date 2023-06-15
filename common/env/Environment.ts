@@ -1,0 +1,10 @@
+export const Environment = {
+  REGION: process.env.REGION!,
+  SES_SOURCE: process.env.SES_SOURCE!,
+  ADD_PING_QUEUE_URL: process.env.ADD_PING_QUEUE_URL!,
+  REMINDERS_QUEUE_URL: process.env.REMINDERS_QUEUE_URL!,
+  REMINDERS_MARKED_SENT_QUEUE_URL: process.env.REMINDERS_MARKED_SENT_QUEUE_URL!,
+  PINGS_TABLE: process.env.PINGS_TABLE!,
+  PING_REMINDERS_TABLE: process.env.PING_REMINDERS_TABLE!,
+  USERS_TABLE: process.env.USERS_TABLE!,
+};
